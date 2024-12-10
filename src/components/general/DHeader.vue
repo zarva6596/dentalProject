@@ -10,8 +10,10 @@
 
         <DNavBar />
 
-        <div>
+        <div class="flex items-center gap-x-5">
             <DUserDropdown />
+
+            <DButton>Book Now</DButton>
         </div>
     </header>
 </template>
