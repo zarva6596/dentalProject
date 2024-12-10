@@ -1,10 +1,21 @@
 <script setup lang="ts">
+const activeMobileMenu = ref(false)
 
+function toggleMobileMenu() {
+    activeMobileMenu.value = !activeMobileMenu.value
+}
 </script>
 
 <template>
-    <header class="max-w-content w-full mx-auto px-5 lg:px-10 ld:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between">
-        <DLogo />
+    <header
+        class="max-w-content w-full mx-auto px-5 lg:px-10 ld:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
+    >
+        <DLogo class="hidden lg:block" />
+
+        <DHeaderMobileVision
+            class="lg:hidden"
+            @click-toggle="toggleMobileMenu"
+        />
 
         <DNavBar class="hidden lg:flex" />
 
@@ -14,8 +25,6 @@
             <DButton>Book Now</DButton>
         </div>
 
-        <div class="lg:hidden bg-blue rounded-lg h-12 w-12 flex items-center justify-center">
-            <img src="~/assets/images/icons/menu-toggle-icon.svg" alt="Menu toggle icon">
-        </div>
+        <DMobileMenu v-model="activeMobileMenu" />
     </header>
 </template>
