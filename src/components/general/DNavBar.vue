@@ -1,38 +1,9 @@
 <script setup lang="ts">
+import { useNavStore } from '~/store/useNavStore'
+
 const route = useRoute()
 
-const navItems = ref([
-    {
-        active: false,
-        id: '1',
-        title: 'Home',
-        route: '/',
-    },
-    {
-        active: false,
-        id: '2',
-        title: 'Services',
-        route: '/services',
-    },
-    {
-        active: false,
-        id: '3',
-        title: 'Blogs',
-        route: '/blogs',
-    },
-    {
-        active: false,
-        id: '4',
-        title: 'About',
-        route: '/about',
-    },
-    {
-        active: false,
-        id: '5',
-        title: 'Contacts',
-        route: '/contacts',
-    }
-])
+const { navItems } = storeToRefs(useNavStore())
 
 function changeRoute(id: string) {
     navItems.value = navItems.value.map(item => ({ ...item, active: item.id === id }))
