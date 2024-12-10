@@ -38,13 +38,17 @@ function changeRoute(id: string) {
     navItems.value = navItems.value.map(item => ({ ...item, active: item.id === id }))
 }
 
-onMounted(() => {
+function checkRoutePath() {
     const id = navItems.value.find(item => item.route === route.path)?.id
 
     id && changeRoute(id)
-})
+}
+
+onMounted(checkRoutePath)
 
 const navBarActive = computed(() => navItems.value.some(item => item.active))
+
+watch(() => route.path, checkRoutePath)
 </script>
 
 <template>
