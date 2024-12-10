@@ -1,11 +1,9 @@
 <template>
     <footer class="max-w-content w-full pb-8">
-        <div>
+        <div class="flex items-center justify-between pb-12">
             <DLogo />
 
-            <div>
-                
-            </div>
+            <DFooterNavBar />
         </div>
 
         <div class="border-t border-blue-dark">
