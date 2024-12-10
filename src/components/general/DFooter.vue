@@ -1,5 +1,5 @@
 <template>
-    <footer class="max-w-content w-full pb-8">
+    <footer class="max-w-content w-full pb-8 mx-auto">
         <div class="flex items-center justify-between pb-12">
             <DLogo />
 

@@ -8,9 +8,9 @@ function toggleMobileMenu() {
 
 <template>
     <header
-        class="max-w-content w-full mx-auto px-5 lg:px-10 ld:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
+        class="max-w-content w-full mx-auto px-5 lg:px-10 lg:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
     >
-        <DLogo class="hidden lg:block" />
+        <DLogo class="hidden lg:flex" />
 
         <DHeaderMobileVision
             class="lg:hidden"
