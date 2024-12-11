@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import DFirstScreen from '~/components/pages/home/firstScreen/DFirstScreen.vue'
+</script>
+
 <template>
-    <div class="text-h1">
-        The brown fox jumped over the lazy dog.
+    <div>
+        <DFirstScreen />
     </div>
 </template>
