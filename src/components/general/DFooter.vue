@@ -23,6 +23,10 @@ const { openMobileMenu } = useMobileMenuStore()
             </div>
         </div>
 
+        <div class="mx-5 text-b1 font-medium lg:hidden mb-8 text-text">
+            All our PRO level features at your fingertips.
+        </div>
+
         <div class="lg:hidden mx-5 text-b1 font-semibold mb-2.5">Follow us on</div>
 
         <div
