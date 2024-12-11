@@ -17,7 +17,8 @@ export default {
         text: '#3c4959',
         success: '#17bf28',
         warnint: '#ec942c',
-        error: '#e52323'
+        error: '#e52323',
+        gray: '#aeaeae'
       },
       fontSize: {
         'h1': [

@@ -1,14 +1,13 @@
 <script setup lang="ts">
-const activeMobileMenu = ref(false)
+import { useMobileMenuStore } from '~/store/useMobileMenuStore'
 
-function toggleMobileMenu() {
-    activeMobileMenu.value = !activeMobileMenu.value
-}
+const { activeMobileMenu } = storeToRefs(useMobileMenuStore())
+const { toggleMobileMenu } = useMobileMenuStore()
 </script>
 
 <template>
     <header
-        class="max-w-content w-full mx-auto px-5 lg:px-10 lg:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
+        class="z-10 max-w-content w-full mx-auto px-5 lg:px-10 lg:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
     >
         <DLogo class="hidden lg:flex" />
 

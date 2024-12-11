@@ -35,14 +35,18 @@ const socialMediaList = ref([
 
 <template>
     <div>
-        <ul class="flex items-center gap-x-5">
+        <ul class="flex items-center gap-x-2.5 lg:gap-x-5">
             <li
                 v-for="item in socialMediaList"
                 :key="item.id"
                 class="transition-all duration-500 hover:opacity-50"
             >
                 <a :href="item.url" target="_blank">
-                    <img :src="item.icon" :alt="`${item.title} icon`">
+                    <img
+                        :src="item.icon"
+                        :alt="`${item.title} icon`"
+                        class="grayscale opacity-50 lg:grayscale-0 lg:opacity-100"
+                    >
                 </a>
             </li>
         </ul>
