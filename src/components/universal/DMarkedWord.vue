@@ -1,8 +1,10 @@
 <template>
     <span class="marked-word relative">
-        <slot />
+        <span class="relative z-10">
+            <slot />
+        </span>
 
-        <span class="inline-block absolute bottom-0 right-0 h-1 w-[105%]">
+        <span class="inline-block absolute bottom-0 right-0 h-1 w-[105%] z-0">
             <img
                 src="~/assets/images/underline.png"
                 alt="Underline image"
