@@ -36,7 +36,7 @@ onMounted(() => swiper.instance)
 </script>
 
 <template>
-    <DSection class="bg-blue-light pt-12 pb-8 !px-0 mb-40 lg:rounded-2lg lg:!px-8 lg:py-12 flex flex-col lg:flex-row gap-6">
+    <DSection class="bg-blue-light pt-12 pb-8 !px-0 lg:rounded-2lg lg:!px-8 lg:py-12 flex flex-col lg:flex-row gap-6">
         <div class="lg:hidden">
             <client-only>
                 <swiper-container ref="containerRef" :init="false">
