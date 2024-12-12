@@ -104,6 +104,16 @@ export default {
       boxShadow: {
         userMessageCard: '0 8px 40px 0 rgba(0, 0, 0, 10%)',
         firstScreenCircle: '0 4px 4px 0 rgba(0, 0, 0, 10%)'
+      },
+      animation: {
+        'spin-slow': 'spin 100s linear infinite',
+        'spin-slow-reverse': 'spin-reverse 100s linear infinite',
+      },
+      keyframes: {
+        'spin-reverse': {
+          '0%': { transform: 'rotate(360deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        }
       }
     },
   },
