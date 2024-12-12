@@ -6,6 +6,9 @@ export default {
       body: 'GeneralSans'
     },
     extend: {
+      borderRadius: {
+        '2lg': '10px',
+      },
       colors: {
         blue: {
           DEFAULT: '#1376f8',
