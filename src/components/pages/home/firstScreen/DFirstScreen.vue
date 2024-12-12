@@ -8,7 +8,9 @@ import DPhotoSection from './DPhotoSection.vue';
     <DSection class="pt-7 flex flex-col lg:flex-row">
         <div class="lg:w-3/4">
             <h1 class="text-h2 lg:text-h1 mb-8">
-                Get ready for your best ever Dental <DMarkedWord>Experience!</DMarkedWord>
+                Get ready for your best ever 
+                <span class="lg:hidden">Dental</span> <DMarkedWord class="lg:hidden">Experience!</DMarkedWord>
+                <DMarkedWord class="hidden lg:inline-block">Dental Experience!</DMarkedWord>
             </h1>
         
             <p class="text-b1 text-text">
@@ -35,3 +37,6 @@ import DPhotoSection from './DPhotoSection.vue';
         <DPhotoSection class="mt-14" />
     </DSection>
 </template>
+
+
+hello world !!!!
