@@ -25,12 +25,11 @@ const items: ServiceItem[] = [
 </script>
 
 <template>
-    <DSection class="bg-blue-light py-12 px-5 mb-40">
+    <DSection class="bg-blue-light py-12 px-5 mb-40 lg:rounded-2lg lg:px-8 flex flex-col lg:flex-row gap-6">
         <DServiceCard
             v-for="(item, i) in items"
             :key="i"
             :item="item"
-            class="mb-5"
         />
     </DSection>
 </template>
