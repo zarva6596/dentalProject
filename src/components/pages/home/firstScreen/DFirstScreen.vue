@@ -5,9 +5,9 @@ import DPhotoSection from './DPhotoSection.vue';
 </script>
 
 <template>
-    <DSection class="pt-7">
-        <div>
-            <h1 class="text-h2 mb-8">
+    <DSection class="pt-7 flex flex-col lg:flex-row">
+        <div class="lg:w-3/4">
+            <h1 class="text-h2 lg:text-h1 mb-8">
                 Get ready for your best ever Dental <DMarkedWord>Experience!</DMarkedWord>
             </h1>
         
@@ -28,6 +28,7 @@ import DPhotoSection from './DPhotoSection.vue';
                 link="https://linkedin.com"
                 message="Top Quailty dental treatment done by field experts, Highly recommended for everyone"
                 icon="linkedIn"
+                class="lg:w-94"
             />
         </div>
 

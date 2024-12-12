@@ -97,6 +97,7 @@ export default {
       },
       width: {
         '12.5': '3.125rem',
+        '94': '23.5rem'
       },
       padding: {
         '4.5': '1.125rem'
