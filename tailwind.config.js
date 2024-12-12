@@ -6,6 +6,9 @@ export default {
       body: 'GeneralSans'
     },
     extend: {
+      spacing: {
+        '17.5': '4.375rem'
+      },
       borderRadius: {
         '2lg': '10px',
       },
@@ -21,7 +24,10 @@ export default {
         success: '#17bf28',
         warnint: '#ec942c',
         error: '#e52323',
-        gray: '#aeaeae'
+        gray: {
+          DEFAULT: '#aeaeae',
+          100: '#cecece'
+        }
       },
       fontSize: {
         'h1': [
@@ -33,7 +39,7 @@ export default {
           }
         ],
         'h2': [
-          '2.5rem',
+          '2.625rem',
           {
             lineHeight: '1.25',
             letterSpacing: '0',
