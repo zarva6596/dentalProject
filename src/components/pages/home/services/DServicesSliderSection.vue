@@ -22,14 +22,56 @@ const items: ServiceItem[] = [
         route: '/'        
     },
 ]
+
+const containerRef = ref(null)
+
+const swiper = useSwiper(containerRef, {
+    loop: true,
+    autoplay: {
+        delay: 2500
+    },
+})
+
+onMounted(() => swiper.instance)
 </script>
 
 <template>
-    <DSection class="bg-blue-light py-12 px-5 mb-40 lg:rounded-2lg lg:px-8 flex flex-col lg:flex-row gap-6">
+    <DSection class="bg-blue-light pt-12 pb-8 !px-0 mb-40 lg:rounded-2lg lg:!px-8 lg:py-12 flex flex-col lg:flex-row gap-6">
+        <div class="lg:hidden">
+            <client-only>
+                <swiper-container ref="containerRef" :init="false">
+                    <swiper-slide 
+                        v-for="(item, i) in items"
+                        :key="i"
+                        class="px-5"
+                    >
+                        <DServiceCard :item="item" />
+                    </swiper-slide>
+                </swiper-container>
+            </client-only>
+
+            <div class="flex items-center justify-center gap-5 mt-10">
+                <button
+                    class="rounded-0 border-none bg-white py-2.5 px-6"
+                    @click="swiper.prev()"
+                >
+                    <img src="~/assets/images/icons/arrowLeft.svg" alt="Left arrow icon" />
+                </button>
+
+                <button
+                    class="rounded-0 border-none bg-white py-2.5 px-6"
+                    @click="swiper.next()"
+                >
+                    <img src="~/assets/images/icons/arrowRight.svg" alt="Right arrow icon" />
+                </button>
+            </div>
+        </div>
+
         <DServiceCard
             v-for="(item, i) in items"
             :key="i"
             :item="item"
+            class="hidden lg:flex"
         />
     </DSection>
 </template>
