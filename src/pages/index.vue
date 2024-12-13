@@ -4,6 +4,7 @@ import DBookSection from '~/components/pages/home/book/DBookSection.vue';
 import DFirstScreen from '~/components/pages/home/firstScreen/DFirstScreen.vue'
 import DPhoneFormSection from '~/components/pages/home/phoneForm/DPhoneFormSection.vue';
 import DServicesSliderSection from '~/components/pages/home/services/DServicesSliderSection.vue';
+import DVideoSection from '~/components/pages/home/video/DVideoSection.vue';
 </script>
 
 <template>
@@ -17,5 +18,7 @@ import DServicesSliderSection from '~/components/pages/home/services/DServicesSl
         <DBenefitsSection />
 
         <DBookSection />
+
+        <DVideoSection />
     </div>
 </template>
