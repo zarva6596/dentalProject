@@ -51,19 +51,9 @@ onMounted(() => swiper.instance)
             </client-only>
 
             <div class="flex items-center justify-center gap-5 mt-10">
-                <button
-                    class="rounded-0 border-none bg-white py-2.5 px-6"
-                    @click="swiper.prev()"
-                >
-                    <img src="~/assets/images/icons/arrowLeft.svg" alt="Left arrow icon" />
-                </button>
+                <DPrevBtn @click="swiper.prev()" />
 
-                <button
-                    class="rounded-0 border-none bg-white py-2.5 px-6"
-                    @click="swiper.next()"
-                >
-                    <img src="~/assets/images/icons/arrowRight.svg" alt="Right arrow icon" />
-                </button>
+                <DNextBtn @click="swiper.next()" />
             </div>
         </div>
 
