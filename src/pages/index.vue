@@ -3,6 +3,7 @@ import DBenefitsSection from '~/components/pages/home/benefits/DBenefitsSection.
 import DBookSection from '~/components/pages/home/book/DBookSection.vue';
 import DFirstScreen from '~/components/pages/home/firstScreen/DFirstScreen.vue'
 import DPhoneFormSection from '~/components/pages/home/phoneForm/DPhoneFormSection.vue';
+import DPlaylistPreview from '~/components/pages/home/playlistPreview/DPlaylistPreview.vue';
 import DServicesSliderSection from '~/components/pages/home/services/DServicesSliderSection.vue';
 </script>
 
@@ -17,5 +18,7 @@ import DServicesSliderSection from '~/components/pages/home/services/DServicesSl
         <DBenefitsSection />
 
         <DBookSection />
+
+        <DPlaylistPreview />
     </div>
 </template>
