@@ -50,11 +50,11 @@ onMounted(() => swiper.instance)
                 </swiper-container>
             </client-only>
 
-            <div class="flex items-center justify-center gap-5 mt-10">
-                <DPrevBtn @click="swiper.prev()" />
-
-                <DNextBtn @click="swiper.next()" />
-            </div>
+            <DSliderArrows
+                class="mt-10"
+                @prev="swiper.prev()"
+                @next="swiper.next()"
+            />
         </div>
 
         <DServiceCard

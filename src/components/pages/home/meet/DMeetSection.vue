@@ -72,11 +72,10 @@ const items: TeamItem[] = [
                 </div>
             </client-only>
 
-            <div class="flex items-center justify-center gap-2.5 mt-10">
-                <DPrevBtn @click="swiper.prev()" />
-
-                <DNextBtn @click="swiper.next()" />
-            </div>
+            <DSliderArrows
+                @prev="swiper.prev()"
+                @next="swiper.next()"
+            />
         </div>
 
         <div class="flex flex-col items-center lg:hidden">
