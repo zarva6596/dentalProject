@@ -109,7 +109,9 @@ export default {
         '94': '23.5rem'
       },
       padding: {
-        '4.5': '1.125rem'
+        '4.5': '1.125rem',
+        '25': '6.25rem',
+        '30': '7.5rem'
       },
       boxShadow: {
         userMessageCard: '0 8px 40px 0 rgba(0, 0, 0, 10%)',
