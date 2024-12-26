@@ -1,5 +1,5 @@
 <template>
-    <DSection class="flex flex-col items-center">
+    <DSection class="flex flex-col items-center pb-25 lg:pb-30">
         <div class="flex flex-col items-center lg:text-center">
             <DSectionHeading class="max-w-[630px] capitalize">
                 We’re <DMarkedWord>Welcoming</DMarkedWord> new patients and can’t wait to meet you.
