@@ -7,7 +7,7 @@ const { toggleMobileMenu } = useMobileMenuStore()
 
 <template>
     <header
-        class="z-10 max-w-content w-full mx-auto px-5 lg:px-10 lg:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
+        class="z-20 max-w-content w-full mx-auto px-5 lg:px-10 lg:py-4.5 lg:bg-blue-light rounded-lg my-10 flex atems-center justify-between"
     >
         <DLogo class="hidden lg:flex" />
 
