@@ -2,6 +2,7 @@
 import DBenefitsSection from '~/components/pages/home/benefits/DBenefitsSection.vue';
 import DBookSection from '~/components/pages/home/book/DBookSection.vue';
 import DFirstScreen from '~/components/pages/home/firstScreen/DFirstScreen.vue'
+import DHappyClientsSection from '~/components/pages/home/happyClients/DHappyClientsSection.vue';
 import DMeetSection from '~/components/pages/home/meet/DMeetSection.vue';
 import DPhoneFormSection from '~/components/pages/home/phoneForm/DPhoneFormSection.vue';
 import DPlaylistPreview from '~/components/pages/home/playlistPreview/DPlaylistPreview.vue';
@@ -23,5 +24,7 @@ import DServicesSliderSection from '~/components/pages/home/services/DServicesSl
         <DPlaylistPreview />
 
         <DMeetSection />
+
+        <DHappyClientsSection />
     </div>
 </template>
