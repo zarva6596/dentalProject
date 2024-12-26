@@ -45,7 +45,7 @@ const items: TeamItem[] = [
     <DSection
         fullWidth
         background
-        class="flex flex-col items-cente lg:py-14"
+        class="flex flex-col items-cente pt-16 pb-12 lg:py-14"
     >
         <div class="lg:text-center flex flex-col items-center">
             <DSectionHeading class="capitalize">
@@ -57,24 +57,42 @@ const items: TeamItem[] = [
             </DDescriptionWrapper>
         </div>
 
-        <client-only>
-            <div class="w-fit relative left-1/2 -translate-x-1/2">
-                <swiper-container ref="containerRef" class="w-screen">
-                    <swiper-slide 
-                        v-for="(item, i) in items"
-                        :key="i"
-                        class="!w-fit"
-                    >
-                        <DSpecialistsCard v-bind="item" />
-                    </swiper-slide>
-                </swiper-container>
+        <div class="hidden lg:block">
+            <client-only>
+                <div class="w-fit relative left-1/2 -translate-x-1/2">
+                    <swiper-container ref="containerRef" class="w-screen">
+                        <swiper-slide 
+                            v-for="(item, i) in items"
+                            :key="i"
+                            class="!w-fit"
+                        >
+                            <DSpecialistsCard v-bind="item" />
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+            </client-only>
+
+            <div class="flex items-center justify-center gap-2.5 mt-10">
+                <DPrevBtn @click="swiper.prev()" />
+
+                <DNextBtn @click="swiper.next()" />
             </div>
-        </client-only>
+        </div>
 
-        <div class="flex items-center justify-center gap-2.5 mt-10">
-            <DPrevBtn @click="swiper.prev()" />
+        <div class="flex flex-col items-center lg:hidden">
+            <div class="flex flex-col gap-8 w-full">
+                <template
+                    v-for="(item, i) in items"
+                    :key="i"
+                >
+                    <DSpecialistsCard
+                        v-if="i < 2"
+                        v-bind="item"
+                    />
+                </template>
+            </div>
 
-            <DNextBtn @click="swiper.next()" />
+            <DButton class="mt-10">View all Members</DButton>
         </div>
     </DSection>
 </template>
