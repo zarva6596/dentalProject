@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import DAsksSection from '~/components/pages/home/asks/DAsksSection.vue';
 import DBenefitsSection from '~/components/pages/home/benefits/DBenefitsSection.vue';
 import DBlogSection from '~/components/pages/home/blog/DBlogSection.vue';
 import DBookSection from '~/components/pages/home/book/DBookSection.vue';
@@ -29,5 +30,7 @@ import DServicesSliderSection from '~/components/pages/home/services/DServicesSl
         <DHappyClientsSection />
 
         <DBlogSection />
+
+        <DAsksSection />
     </div>
 </template>
