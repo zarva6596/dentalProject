@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const phone = ref('')
+</script>
+
 <template>
     <DSection class="pt-24 pb-20 flex flex-col gap-12 lg:flex-row lg:items-end lg:gap-40 lg:!px-17.5">
         <div>
@@ -9,7 +13,7 @@
                 We use only the best quality materials on the market in order to provide the best products to our patients, So don’t worry about anything and book yourself.
             </DDescriptionWrapper>
 
-            <DPhoneForm />
+            <DPhoneForm v-model="phone" />
         </div>
 
         <div class="shrink-0">
