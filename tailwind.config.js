@@ -7,7 +7,9 @@ export default {
     },
     extend: {
       spacing: {
-        '17.5': '4.375rem'
+        '17.5': '4.375rem',
+        '25': '6.25rem',
+        '30': '7.5rem'
       },
       borderRadius: {
         '2lg': '10px',
