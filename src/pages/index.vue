@@ -9,6 +9,7 @@ import DMeetSection from '~/components/pages/home/meet/DMeetSection.vue';
 import DPhoneFormSection from '~/components/pages/home/phoneForm/DPhoneFormSection.vue';
 import DPlaylistPreview from '~/components/pages/home/playlistPreview/DPlaylistPreview.vue';
 import DServicesSliderSection from '~/components/pages/home/services/DServicesSliderSection.vue';
+import DAskToActionSection from '~/components/pages/home/askToAction/DAskToActionSection.vue';
 </script>
 
 <template>
@@ -32,5 +33,7 @@ import DServicesSliderSection from '~/components/pages/home/services/DServicesSl
         <DBlogSection />
 
         <DAsksSection />
+
+        <DAskToActionSection />
     </div>
 </template>
