@@ -7,14 +7,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "release": "npx changelogen@latest --release"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.9.0",
     "nuxt": "^3.14.1592",
+    "nuxt-swiper": "2.0.0",
+    "pinia": "^2.3.0",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.2"
-  }
+  },
+  "version": "0.0.3"
 }

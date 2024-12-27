@@ -5,16 +5,18 @@ export default defineNuxtConfig({
   ],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ],
+  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss', 'nuxt-swiper'],
   srcDir: 'src/.',
   components: {
     dirs: [
       {
         path: '~/components/general',
         global: true,
-      }
+      },
+      {
+        path: '~/components/universal',
+        global: true,
+      },
     ]
   }
 })

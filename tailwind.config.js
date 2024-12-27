@@ -6,6 +6,14 @@ export default {
       body: 'GeneralSans'
     },
     extend: {
+      spacing: {
+        '17.5': '4.375rem',
+        '25': '6.25rem',
+        '30': '7.5rem'
+      },
+      borderRadius: {
+        '2lg': '10px',
+      },
       colors: {
         blue: {
           DEFAULT: '#1376f8',
@@ -17,7 +25,11 @@ export default {
         text: '#3c4959',
         success: '#17bf28',
         warnint: '#ec942c',
-        error: '#e52323'
+        error: '#e52323',
+        gray: {
+          DEFAULT: '#aeaeae',
+          100: '#cecece'
+        }
       },
       fontSize: {
         'h1': [
@@ -29,7 +41,7 @@ export default {
           }
         ],
         'h2': [
-          '2.5rem',
+          '2.625rem',
           {
             lineHeight: '1.25',
             letterSpacing: '0',
@@ -45,7 +57,7 @@ export default {
           }
         ],
         'h4': [
-          '2.25rem',
+          '1.5rem',
           {
             lineHeight: '1.2',
             letterSpacing: '0',
@@ -89,6 +101,36 @@ export default {
             fontWeight: '400',
           }
         ],
+      },
+      maxWidth: {
+        max: '1440px',
+        content: '1280px'
+      },
+      width: {
+        '12.5': '3.125rem',
+        '94': '23.5rem'
+      },
+      padding: {
+        '4.5': '1.125rem',
+        '25': '6.25rem',
+        '30': '7.5rem'
+      },
+      boxShadow: {
+        userMessageCard: '0 8px 40px 0 rgba(0, 0, 0, 10%)',
+        firstScreenCircle: '0 4px 4px 0 rgba(0, 0, 0, 10%)'
+      },
+      animation: {
+        'spin-slow': 'spin 100s linear infinite',
+        'spin-slow-reverse': 'spin-reverse 100s linear infinite',
+      },
+      keyframes: {
+        'spin-reverse': {
+          '0%': { transform: 'rotate(360deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        }
+      },
+      aspectRatio: {
+        '3/1.2': '3 / 1.2'
       }
     },
   },
