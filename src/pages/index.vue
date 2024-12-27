@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import DBenefitsSection from '~/components/pages/home/benefits/DBenefitsSection.vue';
+import DBlogSection from '~/components/pages/home/blog/DBlogSection.vue';
 import DBookSection from '~/components/pages/home/book/DBookSection.vue';
 import DFirstScreen from '~/components/pages/home/firstScreen/DFirstScreen.vue'
 import DHappyClientsSection from '~/components/pages/home/happyClients/DHappyClientsSection.vue';
@@ -26,5 +27,7 @@ import DServicesSliderSection from '~/components/pages/home/services/DServicesSl
         <DMeetSection />
 
         <DHappyClientsSection />
+
+        <DBlogSection />
     </div>
 </template>
