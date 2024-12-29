@@ -1,5 +1,5 @@
 <template>
     <nuxt-link to="/" class="flex items-center">
-        <img src="~/assets/images/logos/logo.svg" alt="Logo image">
+        <h1 class="text-h3 text-blue-dark">RIKOTTA</h1>
     </nuxt-link>
 </template>
