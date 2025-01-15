@@ -9,7 +9,6 @@ import DMeetSection from '~/components/pages/home/meet/DMeetSection.vue';
 import DPhoneFormSection from '~/components/pages/home/phoneForm/DPhoneFormSection.vue';
 import DPlaylistPreview from '~/components/pages/home/playlistPreview/DPlaylistPreview.vue';
 import DServicesSliderSection from '~/components/pages/home/services/DServicesSliderSection.vue';
-import DVideoSection from '~/components/pages/home/video/DVideoSection.vue';
 import DAskToActionSection from '~/components/pages/home/askToAction/DAskToActionSection.vue';
 </script>
 
@@ -24,8 +23,6 @@ import DAskToActionSection from '~/components/pages/home/askToAction/DAskToActio
         <DBenefitsSection />
 
         <DBookSection />
-
-        <DVideoSection />
 
         <DPlaylistPreview />
 
