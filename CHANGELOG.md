@@ -1,6 +1,47 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.3...v0.0.4)
+
+### 🚀 Enhancements
+
+- Create video section on the home page ([f24e6af](https://github.com/zarva6596/dentalProject/commit/f24e6af))
+- Create the main section for the Services page ([87585ed](https://github.com/zarva6596/dentalProject/commit/87585ed))
+- Add the new "Contact form" section to the Services page ([0381b73](https://github.com/zarva6596/dentalProject/commit/0381b73))
+- Create the universal loading component ([dc71fdd](https://github.com/zarva6596/dentalProject/commit/dc71fdd))
+
+### 🩹 Fixes
+
+- Change SEO photo ([fc54589](https://github.com/zarva6596/dentalProject/commit/fc54589))
+- Change SEO image ([f9aba39](https://github.com/zarva6596/dentalProject/commit/f9aba39))
+- Remove mistake in the SEO title ([5d74cd1](https://github.com/zarva6596/dentalProject/commit/5d74cd1))
+
+### 🏡 Chore
+
+- Update changelogen data in the readme file ([b6a8825](https://github.com/zarva6596/dentalProject/commit/b6a8825))
+- Add SEO settings ([da762b1](https://github.com/zarva6596/dentalProject/commit/da762b1))
+- Remove duplicate content ([ae0bbfa](https://github.com/zarva6596/dentalProject/commit/ae0bbfa))
+- Move services items from component to store ([4b557d9](https://github.com/zarva6596/dentalProject/commit/4b557d9))
+- Use items from store in all places wherever possible ([d821f88](https://github.com/zarva6596/dentalProject/commit/d821f88))
+- Add vueuse to the project ([78639fa](https://github.com/zarva6596/dentalProject/commit/78639fa))
+- Move duplicate code to universal component ([59027f4](https://github.com/zarva6596/dentalProject/commit/59027f4))
+- Add other already implemented sections to the service page ([d5b1660](https://github.com/zarva6596/dentalProject/commit/d5b1660))
+
+### 🎨 Styles
+
+- Add new bg color for the header and functionality for change it when user change the route ([f54e772](https://github.com/zarva6596/dentalProject/commit/f54e772))
+- Fix the background height ([9e5b804](https://github.com/zarva6596/dentalProject/commit/9e5b804))
+- Add transition appearing for section ([cb4b18b](https://github.com/zarva6596/dentalProject/commit/cb4b18b))
+- Add mobile version to the main services section ([d0bf3a5](https://github.com/zarva6596/dentalProject/commit/d0bf3a5))
+- Add the loading component to the contact form ([c8d418b](https://github.com/zarva6596/dentalProject/commit/c8d418b))
+- Add mobile vision to the contact form section ([a95f7bc](https://github.com/zarva6596/dentalProject/commit/a95f7bc))
+
+### ❤️ Contributors
+
+- Zarva6596 <zarva6596@gmail.com>
+
 ## v0.0.3
 
 
