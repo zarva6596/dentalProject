@@ -21,7 +21,7 @@ const formModel = reactive({
 </script>
 
 <template>
-    <div class="bg-white w-full px-7 py-8 rounded-xl relative overflow-hidden">
+    <div class="bg-white w-full px-4 lg:px-7 py-8 rounded-xl relative overflow-hidden">
         <DLoading :active="isLoading" />
 
         <form @submit.prevent="submitForm">

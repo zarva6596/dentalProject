@@ -3,7 +3,7 @@
         full-width
         background
         bg-color="bg-blue-dark"
-        class="flex items-center justify-center lg:gap-20 lg:py-12"
+        class="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 py-16 lg:py-12"
     >
         <div class="max-w-[570px] text-white shrink-0">
             <DSectionHeading class="lg:!mb-3 capitalize">
