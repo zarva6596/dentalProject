@@ -2,9 +2,11 @@
 withDefaults(defineProps<{
     fullWidth?: boolean
     background?: boolean
+    bgColor?: string
 }>(), {
     fullWidth: false,
-    background: false
+    background: false,
+    bgColor: 'bg-blue-light'
 })
 </script>
 
@@ -16,7 +18,7 @@ withDefaults(defineProps<{
         <div
             v-if="fullWidth"
             class="-z-10 pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-screen"
-            :class="background && 'bg-blue-light'"    
+            :class="background && bgColor"    
         />
 
         <slot />
