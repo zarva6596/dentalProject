@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import DArrowCircleRight from '~/components/universal/DArrowCircleRight.vue';
 import type { ServiceItem } from '~/types/services'
 
 defineProps<{ item: ServiceItem }>()
@@ -19,7 +20,7 @@ defineProps<{ item: ServiceItem }>()
         <nuxt-link :to="item.route" class="flex items-center justify-center">
             <span class="text-base underline mr-2.5">Learn More</span>
 
-            <img src="~/assets/images/icons/arrorRightCircle.svg" alt="Arror right" />
+            <DArrowCircleRight />
         </nuxt-link>
     </div>
 </template>
