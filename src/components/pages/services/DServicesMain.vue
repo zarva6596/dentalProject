@@ -3,15 +3,28 @@ import DServiceCard from '~/components/pages/home/services/DServiceCard.vue';
 import { useServiceStore } from '~/store/useServicesStore.js'
 
 const { items } = storeToRefs(useServiceStore())
+
+const scapeFromTop = ref(0)
+
+const servicesSection = ref<HTMLElement>()
+
+onMounted(() =>
+    servicesSection.value && (scapeFromTop.value = servicesSection.value.getBoundingClientRect().top))
 </script>
 
 <template>
-    <DSection class="pt-10 pb-25 relative">
+    <DSection
+        class="pt-10 pb-25 relative"
+    >
         <div
-            class="bg-gradient-to-b from-blue-light to-white absolute w-screen h-[120vh] bottom-0 left-1/2 -translate-x-1/2"
+            :style="`height: calc(100% + ${scapeFromTop}px)`"
+            class="bg-gradient-to-b from-blue-light to-white absolute w-screen bottom-0 left-1/2 -translate-x-1/2 transition-all duration-500"
         />
         
-        <div class="flex flex-col items-center relative">
+        <div
+            ref="servicesSection"
+            class="flex flex-col items-center relative"
+        >
             <DSectionHeading>
                 <DMarkedWord>
                     Services
