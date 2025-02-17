@@ -23,7 +23,7 @@ onMounted(() =>
         
         <div
             ref="servicesSection"
-            class="flex flex-col items-center relative"
+            class="flex flex-col lg:items-center relative"
         >
             <DSectionHeading>
                 <DMarkedWord>
@@ -31,12 +31,12 @@ onMounted(() =>
                 </DMarkedWord>
             </DSectionHeading>
 
-            <DDescriptionWrapper class="max-w-[526px] text-center">
+            <DDescriptionWrapper class="max-w-[526px] lg:text-center mb-12 lg:mb-20">
                 We use only the best quality materials on the market in order to provide the best products to our patients.
             </DDescriptionWrapper>
         </div>
 
-        <div class="grid grid-cols-3 gap-x-14 gap-y-12 relative">
+        <div class="grid lg:grid-cols-3 gap-x-14 gap-y-8 lg:gap-y-12 relative">
             <DServiceCard
                 v-for="(item, i) in items"
                 :key="i"
