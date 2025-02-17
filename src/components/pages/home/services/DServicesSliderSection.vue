@@ -1,27 +1,9 @@
 <script setup lang="ts">
 import DServiceCard from './DServiceCard.vue'
 import type { ServiceItem } from '~/types/services'
+import { useServiceStore } from '~/store/useServicesStore.js'
 
-const items: ServiceItem[] = [
-    {
-        icon: 'teeth',
-        title: 'Root Canal Treatment',
-        description: 'Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth.',
-        route: '/'        
-    },
-    {
-        icon: 'smile',
-        title: 'Cosmetic Dentist',
-        description: 'Cosmetic dentistry is the branch of dentistry that focuses on improving the appearance of your smile.',
-        route: '/'        
-    },
-    {
-        icon: 'implant',
-        title: 'Dental Implants',
-        description: 'A dental implant is an artificial tooth root that’s placed into your jaw to hold a prosthetic tooth or bridge.',
-        route: '/'        
-    },
-]
+const { items } = storeToRefs(useServiceStore())
 
 const containerRef = ref(null)
 
@@ -59,6 +41,7 @@ onMounted(() => swiper.instance)
 
         <DServiceCard
             v-for="(item, i) in items"
+            v-show="i < 3"
             :key="i"
             :item="item"
             class="hidden lg:flex"
