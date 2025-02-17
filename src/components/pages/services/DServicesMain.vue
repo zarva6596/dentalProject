@@ -18,7 +18,7 @@ onMounted(() =>
     >
         <div
             :style="`height: calc(100% + ${scapeFromTop}px)`"
-            class="bg-gradient-to-b from-blue-light to-white absolute w-screen bottom-0 left-1/2 -translate-x-1/2 transition-all duration-500"
+            class="bg-gradient-to-b from-blue-light to-white absolute w-screen bottom-0 left-1/2 -translate-x-1/2"
         />
         
         <div
