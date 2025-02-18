@@ -1,6 +1,38 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.4...v0.0.5)
+
+### 🚀 Enhancements
+
+- Create the store for posts and move posts from everywhere to this store ([f841576](https://github.com/zarva6596/dentalProject/commit/f841576))
+- Create the main section for the blogs page ([c481165](https://github.com/zarva6596/dentalProject/commit/c481165))
+- Add the Articles section to the blogs page ([1bd706f](https://github.com/zarva6596/dentalProject/commit/1bd706f))
+- Create the universal dropdown component ([233420f](https://github.com/zarva6596/dentalProject/commit/233420f))
+
+### 🩹 Fixes
+
+- Add other pages to the white header composables ([f21d751](https://github.com/zarva6596/dentalProject/commit/f21d751))
+- Add new property to the DSection ([5136183](https://github.com/zarva6596/dentalProject/commit/5136183))
+- Add fix to the background gradient position ([ec20111](https://github.com/zarva6596/dentalProject/commit/ec20111))
+- Add classes to button to can change the slides in swiper slider ([5a22fcb](https://github.com/zarva6596/dentalProject/commit/5a22fcb))
+- Fix bugs with sliders ([c41a969](https://github.com/zarva6596/dentalProject/commit/c41a969))
+
+### 🏡 Chore
+
+- Show new section on the blogs page ([3c60ad7](https://github.com/zarva6596/dentalProject/commit/3c60ad7))
+- Add other already created section from design to the blogs page ([0869a6e](https://github.com/zarva6596/dentalProject/commit/0869a6e))
+
+### 🎨 Styles
+
+- Add icon for search and new color ([17cb7b4](https://github.com/zarva6596/dentalProject/commit/17cb7b4))
+
+### ❤️ Contributors
+
+- Zarva6596 <zarva6596@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.3...v0.0.4)
