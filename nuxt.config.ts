@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   app: {
 		head: {
 			title: 'RIKOTTA | Dental Clinic',
@@ -24,7 +25,12 @@ export default defineNuxtConfig({
   ],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss', 'nuxt-swiper'],
+  modules: [
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
+    'nuxt-swiper',
+    '@vueuse/nuxt'
+  ],
   srcDir: 'src/.',
   components: {
     dirs: [
