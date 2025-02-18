@@ -28,6 +28,7 @@ export default {
         error: '#e52323',
         gray: {
           DEFAULT: '#aeaeae',
+          50: '#cfcfcf',
           100: '#cecece'
         }
       },
