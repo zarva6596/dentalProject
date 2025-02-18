@@ -14,7 +14,7 @@ const { items } = storeToRefs(useServiceStore())
             ref="servicesSection"
             class="flex flex-col lg:items-center relative"
         >
-            <DSectionHeading>
+            <DSectionHeading class="lg:!text-h1">
                 <DMarkedWord>
                     Services
                 </DMarkedWord>

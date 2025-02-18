@@ -36,7 +36,7 @@ onMounted(() => swiper.instance)
         class="pt-10 pb-25"
     >
         <div class="flex flex-col items-center relative mb-12">
-            <DSectionHeading>
+            <DSectionHeading class="lg:!text-h1">
                 <DMarkedWord>
                     Blogs
                 </DMarkedWord>
