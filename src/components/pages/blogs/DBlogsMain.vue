@@ -9,6 +9,7 @@ const containerRef = ref(null)
 const swiper = useSwiper(containerRef, {
     loop: true,
     slidesPerView: 1,
+    spaceBetween: 20,
     breakpoints: {
         640: {
             slidesPerView: 2,
@@ -66,7 +67,6 @@ onMounted(() => swiper.instance)
                     <swiper-slide 
                         v-for="(item, i) in items"
                         :key="i"
-                        class="px-5"
                     >
                         <DBlogItemCard
                             :key="i"

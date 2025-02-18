@@ -8,10 +8,14 @@ const { items } = storeToRefs(useServiceStore())
 const containerRef = ref(null)
 
 const swiper = useSwiper(containerRef, {
-    loop: true,
+    slidesPerView: 1,
     autoplay: {
         delay: 2500
     },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    }
 })
 
 onMounted(() => swiper.instance)
@@ -34,8 +38,6 @@ onMounted(() => swiper.instance)
 
             <DSliderArrows
                 class="mt-10"
-                @prev="swiper.prev()"
-                @next="swiper.next()"
             />
         </div>
 

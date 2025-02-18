@@ -1,5 +1,5 @@
 <script setup lang="ts">
-withDefaults(defineProps<{ white: boolean }>(), {
+withDefaults(defineProps<{ white?: boolean }>(), {
     white: false
 })
 </script>
