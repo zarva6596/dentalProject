@@ -16,7 +16,7 @@ const scapeFromTop = ref(0)
 const sectionRef = ref<HTMLElement>()
 
 onMounted(() => props.firsGradientSection && sectionRef.value
-    && (scapeFromTop.value = sectionRef.value.getBoundingClientRect().top))
+    && (scapeFromTop.value = sectionRef.value.getBoundingClientRect().top + window.scrollY))
 </script>
 
 <template>
