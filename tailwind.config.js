@@ -26,6 +26,8 @@ export default {
         success: '#17bf28',
         warnint: '#ec942c',
         error: '#e52323',
+        border: '#d0d5dd',
+        placeholder: '#667085',
         gray: {
           DEFAULT: '#aeaeae',
           50: '#cfcfcf',
