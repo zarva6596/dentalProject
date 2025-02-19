@@ -11,7 +11,7 @@
             color="blue-sky"
             title="Office Address"
             :data="['1441 Morris Ave, Union, NJ 07083']"
-            class="absolute bottom-5 left-5"
+            class="absolute bottom-5 left-5 border-none"
             style="width: calc(100% - 40px);"
         />
     </div>

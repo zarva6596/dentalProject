@@ -7,9 +7,12 @@ withDefaults(defineProps<InfoItem>(), {
 </script>
 
 <template>
-    <div class="bg-white flex items-center rounded-2lg overflow-hidden p-5 shadow-[0_5px_50px_0_rgba(0,0,0,0.08)]">
+    <div
+        class="bg-white flex items-center rounded-2lg overflow-hidden px-4 py-6 lg:p-5
+            border border-blue-sky lg:border-none shadow-[0_5px_50px_0_rgba(0,0,0,0.08)]"
+    >
         <div
-            class="rounded-full bg-blue h-14 w-14 mr-4 relative"
+            class="rounded-full bg-blue h-14 w-14 mr-4 relative shrink-0"
             :class="`bg-${color}`"
         >
             <img
