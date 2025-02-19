@@ -4,3 +4,11 @@ export interface TeamItem {
     photo: string
     profileLink?: string 
 }
+
+export interface DoctorCardItem {
+    photo: string,
+    name: string,
+    position: string,
+    description: string,
+    route: string
+}
