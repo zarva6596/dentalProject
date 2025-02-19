@@ -5,7 +5,7 @@ const { openMobileMenu } = useMobileMenuStore()
 </script>
 
 <template>
-    <footer class="max-w-content w-full lg:pb-8 mx-auto">
+    <footer class="max-w-content w-full lg:pb-8 mx-auto relative">
         <div class="flex items-center justify-between pb-7 lg:pb-12 px-5 lg:px-0">
             <DLogo />
 
