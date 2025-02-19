@@ -16,8 +16,8 @@
             </DDescriptionWrapper>
         </div>
 
-        <div class="relative lg:flex lg:gap-10 lg:px-20 lg:justify-center">
-            <DContactForm class="mb-16 flex-1 lg:order-2" />
+        <div class="relative lg:flex lg:gap-10 lg:px-20 lg:justify-center lg:items-stretch">
+            <DContactForm class="mb-16 lg:mb-0 flex-1 lg:order-2" />
 
             <DContactsInfo class="flex-1" />
         </div>
