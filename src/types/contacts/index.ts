@@ -7,6 +7,7 @@ export const INFO_CARD_ICON = {
 } as const;
 
 export interface InfoItem {
+    color?: string
     icon: typeof INFO_CARD_ICON[keyof typeof INFO_CARD_ICON]
     title: string
     data: string[]
