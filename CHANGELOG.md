@@ -1,6 +1,38 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.6...v0.0.7)
+
+### 🚀 Enhancements
+
+- Create component to show one contact detail address, email, phone or chat or other ([1977451](https://github.com/zarva6596/dentalProject/commit/1977451))
+- Create component with map image and address data ([010c2bc](https://github.com/zarva6596/dentalProject/commit/010c2bc))
+- Create component to show contact information like on figma design and show all data there ([75b2521](https://github.com/zarva6596/dentalProject/commit/75b2521))
+- Create the universal component for the input text ([aaa55a0](https://github.com/zarva6596/dentalProject/commit/aaa55a0))
+- Create the "Contact form" component ([4acd9ff](https://github.com/zarva6596/dentalProject/commit/4acd9ff))
+
+### 🩹 Fixes
+
+- Add new props to the contact item component and use it instead of duplicate code ([d411327](https://github.com/zarva6596/dentalProject/commit/d411327))
+
+### 🏡 Chore
+
+- Upload the icons and images for the contacts page ([3ddd384](https://github.com/zarva6596/dentalProject/commit/3ddd384))
+- Show already created info component and add the starting structure to the Contacts page ([bb32484](https://github.com/zarva6596/dentalProject/commit/bb32484))
+- Show created component on the "Contacts" page ([196dd09](https://github.com/zarva6596/dentalProject/commit/196dd09))
+
+### 🎨 Styles
+
+- Add z-index fix ([aa0a465](https://github.com/zarva6596/dentalProject/commit/aa0a465))
+- Add smal styling fixes like on the figma design ([89a6c8b](https://github.com/zarva6596/dentalProject/commit/89a6c8b))
+- Add small fixes like on the figma design ([21ba467](https://github.com/zarva6596/dentalProject/commit/21ba467))
+
+### ❤️ Contributors
+
+- Zarva6596 <zarva6596@gmail.com>
+
 ## v0.0.6
 
 [compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.5...v0.0.6)
