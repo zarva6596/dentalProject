@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.5...v0.0.6)
+
+### 🚀 Enhancements
+
+- Implement main section for the about us page ([a5c6c3d](https://github.com/zarva6596/dentalProject/commit/a5c6c3d))
+- Implement the component to show shortly single doctor ([1136215](https://github.com/zarva6596/dentalProject/commit/1136215))
+- Create the component to show our doctors on the "about us" page ([6765d3d](https://github.com/zarva6596/dentalProject/commit/6765d3d))
+- Create new section from figma design ([7508829](https://github.com/zarva6596/dentalProject/commit/7508829))
+
+### 🩹 Fixes
+
+- Add text size fix to the pages heading ([da4b469](https://github.com/zarva6596/dentalProject/commit/da4b469))
+
+### 🏡 Chore
+
+- Add information and store to show our doctors ([8e7fca7](https://github.com/zarva6596/dentalProject/commit/8e7fca7))
+- Add the "Our Doctors" component on the "About Us" page ([74e73f8](https://github.com/zarva6596/dentalProject/commit/74e73f8))
+- Add already done sections to the "about us" page ([3b28bd0](https://github.com/zarva6596/dentalProject/commit/3b28bd0))
+
+### ❤️ Contributors
+
+- Zarva6596 <zarva6596@gmail.com>
+
 ## v0.0.5
 
 [compare changes](https://github.com/zarva6596/dentalProject/compare/v0.0.4...v0.0.5)
