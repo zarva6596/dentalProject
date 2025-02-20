@@ -16,3 +16,9 @@ const { isReady } = useTransitionSections()
         </main>
     </div>
 </template>
+
+<style>
+.default-layout {
+    @apply text-blue-dark;
+}
+</style>
