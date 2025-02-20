@@ -30,10 +30,10 @@ const { isWhite } = useHeader()
             <DButton>Book Now</DButton>
         </div>
 
-        <div v-else>
+        <div v-else class="hidden lg:flex items-center gap-x-8">
             <nuxt-link
                 to="/login"
-                class="text-b2 font-semibold mr-8 text-blue-dark"
+                class="text-b2 font-semibold text-blue-dark"
             >
                 Login
             </nuxt-link>
