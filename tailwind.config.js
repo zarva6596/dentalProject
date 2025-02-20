@@ -31,7 +31,8 @@ export default {
         gray: {
           DEFAULT: '#aeaeae',
           50: '#cfcfcf',
-          100: '#cecece'
+          100: '#cecece',
+          200: '#afafaf'
         }
       },
       fontSize: {
